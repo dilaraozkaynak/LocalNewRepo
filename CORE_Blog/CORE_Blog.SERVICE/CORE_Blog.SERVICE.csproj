@@ -1,7 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CORE_Blog.CORE\CORE_Blog.CORE.csproj" />
+    <ProjectReference Include="..\CORE_Blog.MODEL\CORE_Blog.MODEL.csproj" />
+  </ItemGroup>
 
 </Project>
