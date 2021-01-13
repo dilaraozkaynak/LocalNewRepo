@@ -11,7 +11,7 @@ namespace CORE_Blog.MODEL.Entities
         public string PostDetail { get; set; }
         public string Tags { get; set; }
         public string ImagePath { get; set; }
-        public string ViewCount { get; set; }
+        public int ViewCount { get; set; }
 
         public Guid CategoryID { get; set; }
         public virtual Category Category { get; set; }
