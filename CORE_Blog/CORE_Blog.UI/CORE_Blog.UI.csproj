@@ -29,4 +29,10 @@
     <ProjectReference Include="..\CORE_Blog.SERVICE\CORE_Blog.SERVICE.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Areas\Administrator\Data\" />
+    <Folder Include="Areas\Administrator\Models\" />
+  </ItemGroup>
+
 </Project>
